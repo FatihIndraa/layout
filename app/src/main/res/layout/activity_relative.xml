@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your text here"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"/>
+
+</RelativeLayout>
